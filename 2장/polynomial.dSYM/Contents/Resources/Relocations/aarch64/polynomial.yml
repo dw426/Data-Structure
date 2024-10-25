@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/it/Desktop/C공/polynomial"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _attach, symObjAddr: 0x0, symBinAddr: 0x1000037D8, symSize: 0x90 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _terms, symObjAddr: 0x740, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x9D, offset: 0x9D, size: 0x8, addend: 0x0, symName: _avail, symObjAddr: 0x1684, symBinAddr: 0x100008320, symSize: 0x0 }
+  - { offsetInCU: 0xAD, offset: 0xAD, size: 0x8, addend: 0x0, symName: _attach, symObjAddr: 0x0, symBinAddr: 0x1000037D8, symSize: 0x90 }
+  - { offsetInCU: 0xDF, offset: 0xDF, size: 0x8, addend: 0x0, symName: _padd, symObjAddr: 0x90, symBinAddr: 0x100003868, symSize: 0x2E8 }
+  - { offsetInCU: 0x157, offset: 0x157, size: 0x8, addend: 0x0, symName: _printPoly, symObjAddr: 0x378, symBinAddr: 0x100003B50, symSize: 0x320 }
+  - { offsetInCU: 0x1B3, offset: 0x1B3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x698, symBinAddr: 0x100003E70, symSize: 0xA8 }
+...
