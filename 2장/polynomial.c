@@ -95,7 +95,7 @@ int main()
 	int startA = 0, finishA = 4, startB = 5, finishB = 9;
 	// int startA = 0, finishA = 2, startB = 3, finishB = 5;
 	int startD, finishD; 
-	avail = finishB+1;
+	avail = finishB + 1;
 	
 	printPoly("A", startA, finishA);		// a식 출력
 	printPoly("B", startB, finishB);		// b식 출력
