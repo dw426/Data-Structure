@@ -26,13 +26,12 @@ int main() {
         printf("이름: ");
         getchar(); // 입력 버퍼 비우기
         fgets(students[i].name, sizeof(students[i].name), stdin);
-        students[i].name[strcspn(students[i].name, "\n")] = '\0';  // 개행 문자 제거
 
         printf("학번: ");
         scanf("%d", &students[i].id);
 
         printf("학점: ");
-        scanf("%f", &students[i].grade);
+        scanf("%lf", &students[i].grade);
     }
 
     // 가장 높은 학점을 가진 학생 찾기
